@@ -1,0 +1,152 @@
+.headers-blog {
+	width: 100%;
+	max-width: 1680px;
+	margin: 0 auto;
+	height: 600px;
+}
+.header-img1 {
+	max-width: 1680px;
+	margin: 0;
+	background-color: black;
+	opacity: 0.4;
+	width: 100%;
+	height: 518px;
+	background-position: center;
+  	position: absolute;
+  	z-index: 2;
+  	margin-top: 30px;
+}
+
+.header-img {
+	max-width: 1680px;
+	margin: 0;
+	background-image: url('../block-recipes/monika-grabkowska-759473-unsplash.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 518px;
+	background-position: center;
+  	position: absolute;
+  	z-index: 1;
+  	margin-top: 30px;
+}
+.blog-titles {
+	position: relative;
+	width: 850px;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 3;
+	top: 274px;
+	color: #f1f1f1;
+	font-family: 'Noto Serif2';
+	font-size: 65px;
+	font-weight: bold;
+	line-height: 75px;
+}
+.blog-author {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 3;
+	top: 294px;
+	color: #f1f1f1;
+	font-family: 'Montserrat3';
+	font-weight: bold;
+	font-size: 18px;
+}
+.blog-statia {
+	width: 100%;
+	max-width: 1680px;
+	margin: 0 auto;
+}
+.blog-statia p {
+	position: relative;
+	width: 750px;
+	text-align: center;
+	margin: 0 auto;
+	color: #898989;
+	font-family: 'NotoSerif2';
+	font-size: 18px;
+	line-height: 31px;
+	text-align: justify;
+}
+.blog-statia p span {
+	font-weight: bold;
+}
+.blog-photo {
+	background-image: url('../block-recipes/Warstwa_686 (1).png');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 410px;
+	background-position: center;
+  	position: relative;
+  	margin-top: 59px;
+  	margin-bottom: 59px;
+}
+.blog-statia1 {
+	width: 100%;
+	max-width: 1680px;
+	margin: 0 auto;
+}
+.blog-statia1 p {
+	position: relative;
+	width: 750px;
+	text-align: center;
+	margin: 0 auto;
+	color: #898989;
+	font-family: 'NotoSerif2';
+	font-size: 18px;
+	line-height: 31px;
+	text-align: justify;
+}
+.blog-block {
+	position: relative;
+	top: 46px;
+	width: 749px;
+	height: 2px;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+}
+.blog-social {
+	position: relative;
+	width: 100%;
+	max-width: 1680px;
+}
+.blog-center{
+	width: 749px;
+	margin: 0 auto;
+	display: flex;
+}
+.recipes-tag {
+	display: inline;
+	position: relative;
+	top: 70px;
+	width: 749px;
+	margin: 0 auto;
+}
+.soc-batton {
+	margin: 0 auto;
+    top: 58px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.social-button:hover { transform: scale(1.1);} 
+.blog-block2 {
+	position: relative;
+	top: 15px;
+	width: 749px;
+	height: 2px;
+	background-color: #f1f1f1;
+	margin: 0 auto;
+}
+.comments-blog {
+	padding-top: 60px;
+	width: 749px;
+	margin: 0 auto;
+}
+.category-coking {
+	padding-top: 40px;
+}

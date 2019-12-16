@@ -1,0 +1,493 @@
+*{
+    padding-inline-start: 0px;
+}
+
+.futomaki-sushi {
+	padding-top: 50px;
+	max-width: 1680px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%
+}
+.w3-content1 {
+	width: 650px; 
+	height: 930px;
+	display: inline;
+    float: left;
+    margin-left: 144px;
+	margin-right: 0px;
+}
+.w3-row-padding1 {
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+	border-width: 10px;
+	border-radius: 15px;
+	padding: 5px;
+	width: 650px;
+	height: 230px;
+	position: relative;
+}
+.s4 {
+	padding-right:20px;
+}
+
+.Sushi-info {
+	width: 567px;
+	display: inline;
+	padding-left: 68px;
+	padding-top: 40px;
+
+}
+.sushi-int {
+	color: #ff5e5e;
+    font-family: 'Montserrat2';
+    font-weight: bold;
+    font-size: 14px;
+}
+.sushi-title {
+	padding-top: 30px;
+    color: #000000;
+    font-family: 'Montserrat2';
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.sushi-block {
+	margin-top: 40px;
+	margin-bottom: 30px;
+    width: 96px;
+    height: 6px;
+    background-color: #ff5e5e;
+
+}
+.sushi-crah {
+	display: inline;
+	position: relative;
+}
+.sushi-futomaki ul {
+  	list-style: none;
+}
+.sushi-futomaki li {
+  display: inline-block;
+
+}
+.sushi-futomaki a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: #cfcfcf;
+  font-family: 'Montserrat4';
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#sushi a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+
+#sushi ul {
+  visibility: hidden;
+  padding: 0;
+  position: absolute;
+}
+#sushi li:hover > ul {
+  visibility: visible;
+  position: absolute;
+}
+.sushi-texts {
+	padding-top: 10px;
+    color: #898989;
+    font-family: 'NotoSerif2';
+    font-size: 18px;
+    line-height: 30px;
+}
+.sushi-autor {
+	padding-top: 32px;
+    color: #c3c3c3;
+    font-family: 'Montserrat3';
+    font-size: 14px
+}
+.sushi-autor a {
+	text-decoration: none;
+	color: #c3c3c3;
+}
+.sushi-autor a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+
+
+/*TODO: ingredients and instructions */
+
+.ingredients-instructions {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 1680px;
+	width: 100%;
+	margin: 0 auto;
+}
+.ingredients {
+	display: inline;
+	width: 600px;
+	padding-left: 144px;
+	padding-bottom: 100px;
+}
+.ingredients-title{
+	color: #000000;
+	font-family: 'NotoSerif2';
+	font-size: 30px;
+	line-height: 30px;
+	padding-bottom: 23px;
+}
+.ingredients-block {
+	width: 82px;
+	height: 2px;
+	background-color: #ff5e5e;
+}
+.ingredients-spisok ul {
+	padding-top: 19px;
+	padding-bottom: 36px;
+	list-style: none;
+	color: #898989;
+	font-family: 'NotoSerif2';
+	font-size: 18px;
+	line-height: 30px;
+}
+.fa-check{
+	font-size: 18px;
+	color: #e0e0e0;
+	line-height: 60px;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button-ing {
+	width: 320px;
+	height: 80px;
+	display: inline-block;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 2px 0;
+  	border: solid 1px transparent;
+  	border-radius: 4px;
+  	padding: 0.5em 1em;
+  	font-family: 'Montserrat2';
+	font-weight: bold;
+  	font-size: 18px;
+  	color: #ff5e5e;;
+  	border-color: #ff5e5e;
+ 	background-color: white;
+}
+.button-ing:active {
+  	transform: translateY(1px);
+  	filter: saturate(150%);
+}
+.button-ing:hover {
+  	color: #ffffff;
+  	background-color: #ff5e5e;
+}
+.button-ing::-moz-focus-inner {
+  border: none;
+}
+
+.button-ing:focus {
+  outline: none;
+}
+.instructions {
+	display: inline;
+	width: 800px;
+	padding-left: 80px;
+}
+
+.instructions-text {
+	padding-top: 17px;
+	padding-bottom: 52px;
+	color: #898989;
+	font-family: 'NotoSerif2';
+	font-size: 18px;
+	line-height: 30px;
+}
+.comment-title{
+	padding-bottom: 49px;
+	color: #000000;
+	font-family: 'Montserrat2';
+	font-size: 20px;
+	font-weight: bold;
+}
+.comment-block {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	max-width: 800px;
+	width: 100%
+}
+.img-comments {
+	display: inline;
+	padding-right: 20px;
+}
+.comment-info {
+	display: inline;
+}
+.comment-data {
+	padding-bottom: 19px;
+	color: #848484;
+	font-family: 'Montserrat3';
+	font-size: 12px;
+	font-weight: bold;
+}
+.comment-name {
+	padding-bottom: 19px;
+	color: #ff5e5e;
+	font-family: "Montserrat2";
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.comment-name a {
+	text-decoration: none;
+	color: #ff5e5e;
+}
+.comment-text {
+	padding-bottom: 19px;
+	font-family: 'Montserrat3';
+	font-weight: bold;
+	line-height: 25px;
+	color: #848484;
+}
+.comment-button {
+	padding-bottom: 49px;
+	color: #000000;
+	font-family: 'NotoSerif2';
+	font-size: 14px;
+}
+.name-email {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	max-width: 800px;
+	width: 100%;
+}
+.name {
+	display: inline;
+	padding-right: 5px;
+}
+.email {
+	display: inline;
+}
+
+.name-email input,
+.your-comment textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 50px;
+  border: 1px solid #e9e9e9;
+  background-color: #ffffff;
+  color: #e9e9e9;
+  border-radius: 1px;
+  font-family: 'Montserrat3';
+}
+.name input {
+	padding-right: 30px;
+}
+.emaill input {
+	padding-right: 190px;;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.button-com {
+	width: 299px;
+	height: 80px;
+	display: inline-block;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 2px 0;
+  	border: solid 1px transparent;
+  	border-radius: 1px;
+  	padding: 0.5em 1em;
+  	font-family: 'Montserrat2';
+	font-weight: bold;
+  	font-size: 18px;
+  	color: #ffffff;
+  	background-color: #ff5e5e;
+}
+.button-com:active {
+  	transform: translateY(1px);
+  	filter: saturate(150%);
+}
+.button-com:hover {
+	color: #ff5e5e;;
+  	border-color: #ff5e5e;;
+ 	background-color: white;
+}
+.button-com::-moz-focus-inner {
+  border: none;
+}
+
+.button-com:focus {
+  outline: none;
+}
+
+
+/*TODO: More Recipes */
+
+
+.more-recipes {
+	max-width: 1680px;
+	height: 980px;
+	margin: 0 auto;
+}
+.more-title {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	top: 120px;
+	color: #000000;
+	font-family: 'Montserrat2';
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 30px;
+	z-index: 2;
+}
+.more-title-block {
+	margin: auto;
+	top: 150px;
+    width: 96px;
+    height: 6px;
+    background-color: #ff5e5e;
+    position: relative;
+}
+
+.more-title-block {
+	z-index: 2;
+}
+.more-blok-white1 {
+	position: relative;
+    top: -625px;
+	width: 100%;
+	height: 905px;
+	box-shadow: 0 0 81px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	z-index: 1;
+}
+.block-recipes {
+    top: 190px;
+}
+.block1 {
+	margin-top: 17px;
+}
+
+.inbox {
+    height: 350px;
+}
+
+.inbox-title {
+    top: 70px;
+}
+.inbox-text {
+    top: 100px;
+}
+.email-form {
+    top: 120px;
+}
+
+.social-img {
+    height: 348px;
+}
+.social-network {
+    height: 348px;
+}
+
+@media (max-width: 1400px) {
+	.w3-content1 {
+		margin: 0 auto;
+	}
+	.Sushi-info {
+		margin: 0 auto;
+	}
+	.sushi-autor {
+		display: none;
+	}
+	.more-recipes {
+		height: 1600px;
+	}
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+
+	.sushi-texts {
+		padding-bottom: 20px;
+	}
+	.ingredients {
+		padding-left: 90px;
+		padding-bottom: 30px;
+	}
+	.ingredients-button {
+		display: none;
+	}
+	.more-recipes {
+		height: 1300px;
+	}
+	.social-network {
+		height: 218px;
+	}
+}
+
+@media (max-width: 769px) {
+	.container {
+		padding-left: 30px;
+	}
+	.main {
+		padding-left: 30px;
+	}
+	.sushi-autor {
+		display: none;
+	}
+	.sushi-texts {
+		padding-bottom: 20px;
+	}
+	.ingredients-button {
+		display: none;
+	}
+	.ingredients {
+		padding-left: 70px;
+		padding-bottom: 0px;
+	}
+	.more-recipes {
+		height: 2750px;
+	}
+	.inbox {
+		height: 385px;
+	}
+	.more-blok-white1 {
+		display: none;
+	}
+	.block-img-ins {
+		display: none;
+	}
+	.social-network {
+		height: 218px;
+	}
+
+
+}

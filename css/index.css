@@ -1,0 +1,390 @@
+
+.heder-conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+
+.block-conteiner {
+  position: relative;
+  display: inline-flex;
+  max-width: 1680px;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+}
+.background-block1 {
+  background-image: url('../block-recipes/Grupa 8.png');
+  width: 560px;
+  height: 600px;
+  background-position: center;
+  position: relative;
+  margin-right: 5px;
+}
+.background-block2 {
+  background-image: url('../block-recipes/Grupa 9.png');
+  width: 560px;
+  height: 600px;
+  background-position: center;
+  position: relative;
+  margin-right: 5px;
+}
+.background-block3 {
+  background-image: url('../block-recipes/Grupa 10.png');
+  width: 560px;
+  height: 600px;
+  background-position: center;
+  position: relative;
+}
+.block-title {
+  text-align: center;
+  padding-top: 400px;
+  color: #FFFFFF;
+  font-family: 'Montserrat2';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.block-text {
+  display: inline-block;
+  width: 400px;
+  color: #FFFFFF;
+  font-family: 'NotoSerif2';
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 13px;
+}
+.block-author {
+  color: #c3c3c3;
+  font-family: 'Montserrat2';
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+
+
+/*TODO: Healthy breakfast*/
+
+
+.healthy_breakfest {
+  text-align: center;
+}
+
+.breakfest-title {
+  padding-top: 30px;
+  color: #000000;
+  font-family: 'Montserrat2';
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.breakfest-block {
+  top: 33px;
+  margin: auto;
+  position: relative;
+  width: 96px;
+  height: 6px;
+  background-color: #ff5e5e;
+}
+.bread-crah {
+  top: 30px;
+  display: inline-flex;
+  position: relative;
+  padding-top: 15px;
+}
+.bread-crah ul {
+  list-style: none;
+}
+.bread-crah li {
+  display: inline-block;
+
+}
+.bread-crah a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color: #cfcfcf;
+  font-family: 'Montserrat4';
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#bread a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+
+#bread ul {
+  visibility: hidden;
+  padding: 0;
+  position: absolute;
+}
+#bread li:hover > ul {
+  visibility: visible;
+  position: absolute;
+}
+.breakfest-text {
+  padding-top: 70px;
+  margin: auto;
+  text-align: center;
+  width: 831px;
+  color: #898989;
+  font-family: 'NotoSerif3';
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+/*TODO: Block-recipes*/
+
+
+
+.block-recipes {
+  top: 79px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1680px;
+  z-index: 2;
+}
+.block-recipes1{
+  display: inline;
+  width: 310px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+
+.recipes-int {
+  width: 145px;
+  height: 11px;
+  color: #ff5e5e;
+  font-family: 'Montserrat2';
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+.recipes-name {
+  width: 283px;
+  color: #000000;
+  font-family:'NotoSerif3';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.recipes-author {
+  width: 194px;
+  height: 14px;
+  color: #c3c3c3;
+  font-family: 'Montserrat3';
+  font-size: 14px;
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+.block1 {
+  width: 53px;
+  height: 2px;
+  background-color: #ff5e5e;
+  margin-bottom: 20px;
+}
+.fas {
+  width: 14px;
+  height: 13px;
+  color: #cfcfcf;
+  font-size: 12px;
+  margin-right: 12px;
+}
+.recipes-tag {
+  width: 270px;
+  height: 11px;
+  color: #cfcfcf;
+  font-family: 'Montserrat3';
+  font-size: 12px;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn {
+  width: 200px;
+  height: 70px;
+  display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+  color: #ffffff;
+}
+
+
+input.SReadMoreRadio
+    {
+        display: none;
+    }
+
+
+    input.SReadMoreRadio + label + div
+    {
+        display: none;
+    }
+
+    input.SReadMoreRadio:checked + label + div
+    {
+        display: block;
+        display: inline-flex;
+    }
+
+
+    input.SReadMoreRadio + label
+    {
+        cursor: pointer;
+        right: 500px;
+        width: 200px;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        border: solid 1px transparent;
+        border-radius: 4px;
+        padding: 0.5em 1em;
+        font-family: 'Montserrat2';
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 18px;
+        background-color: #ff5e5e; 
+        }
+    input.SReadMoreRadio:checked + label
+    {
+        display: none;
+    }
+
+    input.SReadMoreRadio + label + div + input + label
+    {
+        cursor: pointer;
+        margin-left: 0px;
+
+    }
+
+    input.SReadMoreRadio:checked + label + div + input + label
+    {
+        display: block;
+    }
+
+.button-recipes {
+  max-width: 1680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block-recipesA {
+  max-width: 1680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block-recipes13{
+  display: inline;
+  width: 310px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.block-recipes14{
+  display: inline;
+  width: 310px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.block-recipes15{
+  display: inline;
+  width: 310px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+.block-recipes16{
+  display: inline;
+  width: 310px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+
+.block-img-ins {
+  margin-top: -10px;
+  display: inline-flex;
+  width: 100%;
+  max-width: 1680px;
+}
+.img-ins-1 {
+  width: 20%;
+}
+
+.menu-footer {
+  max-width: 1680px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  top: 20px;
+  display: table;
+}
+.menu-footer ul {
+  list-style: none;
+}
+.menu-footer li {
+  display: inline-block;
+}
+.menu-footer a {
+  color: #989898;
+  text-decoration: none; 
+  font-family: 'Montserrat2';
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 10px;
+
+}
+.menu-footer a span {
+  color: #b4b4b4;
+}
+
+#menu-footer1 a:hover {
+  color: #ff5e5e;
+  transition: all 0.3s ease;
+}
+#menu-footer1 ul {
+  visibility: hidden;
+    padding: 0;
+    position: relative;
+}
+#menu-footer1 li:hover > ul {
+  visibility: visible;
+    position: relative;
+}
+
+
+
+#menu-footer2 span:hover {
+  color: #ff5e5e;
+  transition: all 0.3s ease;
+}
+#menu-footer2 ul {
+  visibility: hidden;
+    padding: 0;
+    position: relative;
+}
+#menu-footer2 li:hover > ul {
+  visibility: visible;
+    position: relative;
+}
